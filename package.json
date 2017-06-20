@@ -13,12 +13,14 @@
     "pg": "^6.2.4",
     "pg-hstore": "^2.3.2",
     "retry-as-promised": "^2.2.0",
-    "sequelize": "^4.1.0"
+    "sequelize": "^4.1.0",
+    "webpack": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node .bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack-watch": "webpack -w",
+    "express-server": "nodemon ./bin/www",
+    "start": "concurrently --kill-others \"npm run webpack-watch\" \"npm run express-server\""
   },
   "repository": {
     "type": "git",
