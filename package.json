@@ -1,12 +1,11 @@
 {
   "name": "my-API",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-  "start:dev": "node app.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+    "start:": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,5 +19,14 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptic20/api-heroku.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cryptic20/api-heroku/issues"
+  },
+  "homepage": "https://github.com/cryptic20/api-heroku#readme",
+  "description": ""
 }
