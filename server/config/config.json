@@ -1,10 +1,4 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "kabayoka123",
-    "database": "postgres",
-    "host": "sw-blog-api.herokuapp.com",
-    "port": 8080,
-    "dialect": "postgres"
-}
-}
+    "use_env_variable": "DATABASE_URL"
+  },
