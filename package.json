@@ -10,15 +10,16 @@
     "express": "^4.15.3",
     "morgan": "^1.8.2",
     "pg": "^6.2.4",
+    "nodemon": "^1.11.0",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.1.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.11.0"},
-    "scripts": {
+  "devDependencies": {},
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cryptic20/api-heroku.git"
