@@ -2,7 +2,7 @@
   "development": {
     "username": "postgres",
     "password": "kabayoka123",
-    "database": "forum",
+    "database": "newDB",
     "host": "127.0.0.1",
     "port": 8080,
     "dialect": "postgres"
