@@ -4,7 +4,7 @@
     "password": "kabayoka123",
     "database": "postgres",
     "host": "https://sw-blog-api.herokuapp.com",
-    "port": 8080,
+    // "port": 8080,
     "dialect": "postgres"
   },
   
