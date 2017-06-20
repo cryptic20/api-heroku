@@ -3,7 +3,7 @@
     "username": "postgres",
     "password": "kabayoka123",
     "database": "postgres",
-    "host": "127.0.0.1",
+    "host": "https://sw-blog-api.herokuapp.com",
     "port": 8080,
     "dialect": "postgres"
 }
