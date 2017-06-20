@@ -13,15 +13,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 
+// const port = parseInt(process.env.PORT, 10) || 8000;
+// app.set('port', port);
 
-
-const port = parseInt(process.env.PORT, 10) || 8000;
-app.set('port', port);
-
-const server = http.createServer(app);
-server.listen(port, () => {
-  console.log(`The server is running at localhost:${port}`);
-});
+// const server = http.createServer(app);
+// server.listen(port, () => {
+//   console.log(`The server is running at localhost:${port}`);
+// });
 
 
 require('./server/routes')(app);
@@ -34,4 +32,4 @@ app.get('*', (req, res) => res.status(200).send({
 
 
 
-// module.exports = app;
+module.exports = app;
